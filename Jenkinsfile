@@ -19,6 +19,7 @@ pipeline {
                 # sudo /PATH/TO/CONDA init
                 # /home/santyg20/miniconda3/bin/conda init bash
                 #source ~/.bashrc
+                export PATH=/home/santyg20/miniconda3/bin:$PATH
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
                 conda run -n mlip pytest
