@@ -24,8 +24,8 @@ pipeline {
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
                 conda run -n mlip pytest
                 
-                echo 'pytest not runned'
-                exit 1 #comment this line after implementing Jenkinsfile
+                echo 'pytest runned'
+                #exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
